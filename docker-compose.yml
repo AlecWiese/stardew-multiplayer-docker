@@ -127,6 +127,12 @@ services:
       ## Non-destructive NPCs mod
       - ENABLE_NONDESTRUCTIVENPCS_MOD=${ENABLE_NONDESTRUCTIVENPCS_MOD-false}
 
+      ## Dedicated Server mod
+      - ENABLE_DEDICATEDSERVER_MOD=${ENABLE_DEDICATEDSERVER_MOD-true}
+
+      ## Error handler mod
+      - ENABLE_ERRORHANDLER_MOD=${ENABLE_ERRORHANDLER_MOD-false}
+      
     ports:
       # VNC
       - 5902:5900

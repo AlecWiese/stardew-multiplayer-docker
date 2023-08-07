@@ -1,0 +1,20 @@
+{
+    "AcceptPet": true,
+    "EnableCropSaver": true,
+    "PurchaseJojaMembership": false,
+    "FarmName": "Kadi",
+    "StartingCabins": 1,
+    "CabinLayout": "separate",
+    "ProfitMargin": "normal",
+    "MoneyStyle": "shared",
+    "FarmType": "standard",
+    "CommunityCenterBundles": "normal",
+    "GuaranteeYear1Completable": false,
+    "MineRewards": "normal",
+    "SpawnMonstersOnFarmAtNight": false,
+    "RandomSeed": null,
+    "PetSpecies": "dog",
+    "PetBreed": 0,
+    "PetName": "Stella",
+    "MushroomsOrBats": "Mushrooms"
+}
