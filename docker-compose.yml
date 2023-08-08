@@ -131,7 +131,7 @@ services:
       - ENABLE_DEDICATEDSERVER_MOD=${ENABLE_DEDICATEDSERVER_MOD-true}
 
       ## Error handler mod
-      - ENABLE_ERRORHANDLER_MOD=${ENABLE_ERRORHANDLER_MOD-false}
+      - ENABLE_ERRORHANDLER_MOD=${ENABLE_ERRORHANDLER_MOD-true}
       
     ports:
       # VNC
