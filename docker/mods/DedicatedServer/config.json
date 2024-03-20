@@ -2,7 +2,7 @@
     "AcceptPet": true,
     "EnableCropSaver": true,
     "PurchaseJojaMembership": false,
-    "FarmName": "Kadi",
+    "FarmName": "Moose",
     "StartingCabins": 1,
     "CabinLayout": "separate",
     "ProfitMargin": "normal",
@@ -15,6 +15,6 @@
     "RandomSeed": null,
     "PetSpecies": "dog",
     "PetBreed": 0,
-    "PetName": "Stella",
+    "PetName": "Skylar",
     "MushroomsOrBats": "Mushrooms"
 }
