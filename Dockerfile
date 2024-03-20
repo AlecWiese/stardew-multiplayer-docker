@@ -14,7 +14,7 @@ RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehe
 # Make Directories for Stardew 1.6 + SMAPI 4.0.0 
 RUN mkdir -p /data/Stardew && \
     mkdir -p /data/nexus && \
-    wget https://eris.cc/Stardew_latest.tar.gz -qO /data/latest.tar.gz && \
+    wget https://moosewcstorage.blob.core.windows.net/stardew/Stardew_latest.tar.gz -qO /data/latest.tar.gz && \
     tar xf /data/latest.tar.gz -C /data/Stardew && \
     rm /data/latest.tar.gz 
 
