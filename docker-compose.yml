@@ -3,7 +3,7 @@ version: '2.2'
 services:
   valley:
     # build: docker
-    image: AlecWiese/stardew-multiplayer-docker:latest
+    image: AlecWiese/stardew-multiplayer-docker:master
     container_name: stardew
     restart: unless-stopped
     environment:

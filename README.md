@@ -1,37 +1,23 @@
 # Stardew Valley Multiplayer Docker Compose
 
-This project aims to autostart a Stardew Valley Multiplayer Server as easy as possible.
+This project aims to autostart a Stardew Valley Multiplayer Server for version 1.6 and SMAPI 4.0.0, as easy as possible. It's very much still a work in progress.
 
 ## Side Note
 
  - Updating to most recent version requires a rebuild: `docker-compose build --no-cache` 
- - Although I'm trying to put out updates, I don't have the time for testing, so I recommend forking and fixing things on your own.
- - Ansible and Terraform will not be supported anymore
- - Thanks to the brilliant configuration script from Novex and the genius baseimage from jlesage this now looks a bit better
+ - I barely know what I'm doing. maybe see if there's a better fork first?
+ - Thanks to printfuck and jolekay for their work
 
 ## Setup
 
 ### Docker-Compose
  
+Again, I'd like to stress it would be better for your sanity to find another source
+
 ```
-git clone https://github.com/printfuck/stardew-multiplayer-docker
+git clone https://https://github.com/AlecWiese/stardew-multiplayer-docker
 
 docker-compose up
-```
-### Ansible !deprecated!
-
-Create an inventory file with your hosts
-
-```
-ansible -i <your_inventori> playbook.yml
-```
-
-### Terraform (with Hetzner Cloud) !deprecated!
-
-Enter your API Token in `terraform/vars.auto.tfvars` and modify the resource section in `main.tf` to your liking, then run the following script:
-
-```
-./terra.sh
 ```
 
 ## Game Setup
