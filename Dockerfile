@@ -8,7 +8,7 @@ ENV APP_NAME="StardewValley"
 RUN apt-get update
 RUN apt-get install -y wget unzip tar strace mono-complete xterm gettext-base jq netcat procps 
 # set "app icon"
-RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png && \
+# RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png && \
     install_app_icon.sh "$APP_ICON_URL"
 
 # Make Directories for Stardew 1.6 + SMAPI 4.0.0 
